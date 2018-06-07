@@ -1,0 +1,27 @@
+chuongtrinh test ;
+	hang hang1 = 1; hang2 = 2;
+	kieu kieu1 = char; kieu2 = boolean; kieu3 = int; kieu4 = newType;
+	bien bien1 : float; bien2 : newType;
+	ham ham1(thamso1 : int, thamso2: int) ; char ;
+		hang hang1 = 1; hang2 = 2;
+		kieu kieu1 = char; kieu2 = boolean; kieu3 = int; kieu4 = newType;
+		bien bien1 : int; bien2 : newType;
+		batdau
+			a1 = 5 * 7 - 2 ;
+			neu(a > 7)
+				a2 = 9 - 2 + 13 ;
+				khi(a < 10)
+					a2 = a2 - 1
+				ketthuc
+			ketthuc
+		ketthuc
+	;
+	batdau
+		call ham1(a * 7, -2 - 12);
+		neu(a < 9)
+			batdau
+				a = 5
+			ketthuc
+		ketthuc
+	ketthuc
+}
